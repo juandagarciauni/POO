@@ -1,0 +1,43 @@
+public class EjecutarLibro{
+    public static void main(String[] args) {
+
+        //creacion de los 5 libros
+        Libro libro1 = new Libro("123-456", "matematicas I", "roger", 1990, true);
+        Libro libro2 = new Libro("789-012", "fisica", "jose", 1995, true);
+        Libro libro3 = new Libro("345-678", "quimica", "maria", 2000, true);
+        Libro libro4 = new Libro("901-234", "biologia", "pedro", 2005, true);
+        Libro libro5 = new Libro("567-890", "historia", "ana", 2010, true);
+        
+        //Mostrar la informacion de los libros 
+        System.out.println(libro1);
+        System.out.println(libro2);
+        System.out.println(libro3);
+        System.out.println(libro4);
+        System.out.println(libro5);
+
+        //Mostrar solo el titulo del libro2
+        System.out.println(libro2.getTitulo());
+
+        //Cambiar el isbn del libro5
+        libro5.setIsbn("0000-00");
+        System.out.println(libro5);
+
+        //Verificar si el libro3 esta disponible
+        System.out.println(libro3.isDisponible()); //true
+
+        //Prestar el libro 3
+        libro3.prestar();
+        System.out.println(libro3.isDisponible()); //false
+
+        //Devolver el libro 3
+        libro3.devolver();
+
+        //verificar si el libro 3 esta disponible
+        System.out.println(libro3.isDisponible()); //true
+
+
+    }
+    
+
+
+}
