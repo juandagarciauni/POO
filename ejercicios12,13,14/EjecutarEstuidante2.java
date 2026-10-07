@@ -109,7 +109,7 @@ class Estudiante2 {
     }
 }
 
-public class EjecutarEstudiante2 {
+public class EjecutarEstuidante2 {
     public static void main(String[] args) {
 
         // Creación de cinco objetos

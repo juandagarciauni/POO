@@ -1,4 +1,4 @@
-public class ejecutarinventario {
+class EjecutarInventario {
 
     // Atributos de la clase
     private String nombre;
@@ -7,7 +7,7 @@ public class ejecutarinventario {
     private String programa;
 
     // Constructor
-    public ejecutarinventario(String nombre, String documento, int edad, String programa) {
+    public EjecutarInventario(String nombre, String documento, int edad, String programa) {
         this.nombre = nombre;
         this.documento = documento;
         this.edad = edad;
