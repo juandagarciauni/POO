@@ -1,6 +1,4 @@
-package POO.semana6;
-
-public class Estudiante {
+public class ejecutarinventario {
 
     // Atributos de la clase
     private String nombre;
@@ -9,7 +7,7 @@ public class Estudiante {
     private String programa;
 
     // Constructor
-    public Estudiante(String nombre, String documento, int edad, String programa) {
+    public ejecutarinventario(String nombre, String documento, int edad, String programa) {
         this.nombre = nombre;
         this.documento = documento;
         this.edad = edad;

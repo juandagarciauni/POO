@@ -1,4 +1,3 @@
-package POO.semana6;
 
 public class Estudiante {
 
@@ -8,7 +7,7 @@ public class Estudiante {
     private int edad;
     private String programa;
 
-    // Constructor
+    // Constructor de la clase estudiante
     public Estudiante(String nombre, String documento, int edad, String programa) {
         this.nombre = nombre;
         this.documento = documento;
@@ -40,3 +39,4 @@ public class Estudiante {
                 + ", programa: " + programa + "]";
     }
 }
+

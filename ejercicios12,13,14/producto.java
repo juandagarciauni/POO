@@ -1,6 +1,4 @@
-package POO.semana6;
-
-public class EjecutarEstudiante {
+public class producto {
     public static void main(String[] args) {
 
         // Creación de los tres objetos
@@ -38,5 +36,61 @@ public class EjecutarEstudiante {
          * estudiante (12 en total) y, si se agrega un atributo nuevo, hay que
          * modificar cada bloque de prints.
          */
+    }
+}
+
+class Estudiante {
+    private String nombre;
+    private String documento;
+    private int edad;
+    private String programa;
+
+    public Estudiante(String nombre, String documento, int edad, String programa) {
+        this.nombre = nombre;
+        this.documento = documento;
+        this.edad = edad;
+        this.programa = programa;
+    }
+
+    public String getNombre() {
+        return nombre;
+    }
+
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
+    }
+
+    public String getDocumento() {
+        return documento;
+    }
+
+    public void setDocumento(String documento) {
+        this.documento = documento;
+    }
+
+    public int getEdad() {
+        return edad;
+    }
+
+    public void setEdad(int edad) {
+        this.edad = edad;
+    }
+
+    public String getPrograma() {
+        return programa;
+    }
+
+    public void setPrograma(String programa) {
+        this.programa = programa;
+    }
+
+    @Override
+    public String toString() {
+        return "Estudiante{" +
+                "nombre='" + nombre + '\'' +
+                ", documento='" + documento + '\'' +
+                ", edad=" + edad +
+                ", programa='" + programa + '\'' +
+                '}';
     }
 }

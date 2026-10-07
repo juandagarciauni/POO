@@ -1,6 +1,4 @@
-package POO.semana6;
-
-public class Estudiante2 {
+class estudiante2 {
 
     // Atributos privados
     private String nombre;
@@ -16,7 +14,7 @@ public class Estudiante2 {
 
     // Constructor con todos los atributos.
     // Se usan los setters para que las validaciones también se apliquen al crear el objeto.
-    public Estudiante2(String nombre, String documento, int edad, String correo, String programa, int semestre) {
+    public estudiante2(String nombre, String documento, int edad, String correo, String programa, int semestre) {
         setNombre(nombre);
         this.documento = documento;
         setEdad(edad);
